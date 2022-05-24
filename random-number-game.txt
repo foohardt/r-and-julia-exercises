@@ -1,0 +1,22 @@
+print("Welcome to the happy number guessing game!")
+print("The computer will create a random number between 1 and  10, and guess what, you have to guess it.")
+print("You have 5 tries. Go!")
+
+computer = floor(runif(1, 1, 10))
+
+i <- 0
+
+while (i < 5){
+
+    user = readline()
+
+    if (computer == user) {
+        print("You won. Have a good day!")
+        break
+    }
+    else {
+        print("Not even close. Try again!")
+        i <- i + 1
+    }
+}
+
