@@ -1,0 +1,17 @@
+# Esoph dataset analysos script
+
+# Print first 5 rows 
+head(esoph)
+
+# Print structure  
+str(esoph)
+
+# Print dimension 
+dim(esoph)
+
+# Print names of columns
+names(esoph)
+
+# Print summary 
+summary(esoph)
+
